@@ -16,7 +16,7 @@
 
 ## 程序设计
 
-- HttpApplication，启动类，初始化监听/epoll，阻塞等待epoll事件并将事件分发给HttpHandler处理。
+- HttpServer，启动类，初始化监听/epoll，阻塞等待epoll事件并将事件分发给HttpHandler处理。
 - HttpHandler，http请求处理类，处理epoll读写事件
 - HTTPRequest，http请求对象，保存了解析后的http请求
 - HTTPResponse，http响应对象，记录了文件的偏移量、range、chunk等信息。
