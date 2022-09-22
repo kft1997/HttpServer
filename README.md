@@ -1,9 +1,13 @@
 # cpp http server
 
+一个用c++实现的简单http服务器，支持http get请求。
+
 ## 背景
 
-背景:刚入职虾皮是的入职作业，使用c++实现高性能http服务器
+背景:2021届虾皮的校招新人，需要做3个entry task，这是其中一个。
 目标:实现http get方法请求的解析和响应
+要求：单线程，不能使用sendfile方法
+加分项：支持keep-alive,http range,http chunk,pipeline
 
 ## 目录结构
 
